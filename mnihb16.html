@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Variational Inference for Monte Carlo Objectives | ICML 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Variational Inference for Monte Carlo Objectives">
+
+  <meta name="citation_author" content="Mnih, Andriy">
+
+  <meta name="citation_author" content="Rezende, Danilo">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of The 33rd International Conference on Machine Learning">
+<meta name="citation_firstpage" content="2188">
+<meta name="citation_lastpage" content="2196">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v48/mnihb16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Variational Inference for Monte Carlo Objectives</h1>
+
+	<div id="authors">
+	
+		Andriy Mnih,
+	
+		Danilo Rezende
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 33rd International Conference on Machine Learning,
+		pp. 2188–2196, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		Recent progress in deep latent variable models has largely been driven by the development of flexible and scalable variational inference methods. Variational training of this type involves maximizing a lower bound on the log-likelihood, using samples from the variational posterior to compute the required gradients. Recently, Burda et al. (2016) have derived a tighter lower bound using a multi-sample importance sampling estimate of the likelihood and showed that optimizing it yields models that use more of their capacity and achieve higher likelihoods. This development showed the importance of such multi-sample objectives and explained the success of several related approaches. We extend the multi-sample approach to discrete latent variables and analyze the difficulty encountered when estimating the gradients involved. We then develop the first unbiased gradient estimator designed for importance-sampled objectives and evaluate it at training generative and structured output prediction models. The resulting estimator, which is based on low-variance per-sample learning signals, is both simpler and more effective than the NVIL estimator proposed for the single-sample variational objective, and is competitive with the currently used biased estimators.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="mnihb16.pdf">Download PDF</a></li>
+			
+			<li><a href="mnihb16-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

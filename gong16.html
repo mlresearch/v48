@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Domain Adaptation with Conditional Transferable Components | ICML 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Domain Adaptation with Conditional Transferable Components">
+
+  <meta name="citation_author" content="Gong, Mingming">
+
+  <meta name="citation_author" content="Zhang, Kun">
+
+  <meta name="citation_author" content="Liu, Tongliang">
+
+  <meta name="citation_author" content="Tao, Dacheng">
+
+  <meta name="citation_author" content="Glymour, Clark">
+
+  <meta name="citation_author" content="Schölkopf, Bernhard">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of The 33rd International Conference on Machine Learning">
+<meta name="citation_firstpage" content="2839">
+<meta name="citation_lastpage" content="2848">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v48/gong16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Domain Adaptation with Conditional Transferable Components</h1>
+
+	<div id="authors">
+	
+		Mingming Gong,
+	
+		Kun Zhang,
+	
+		Tongliang Liu,
+	
+		Dacheng Tao,
+	
+		Clark Glymour,
+	
+		Bernhard Schölkopf
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 33rd International Conference on Machine Learning,
+		pp. 2839–2848, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		Domain adaptation arises in supervised learning when the training (source domain) and test (target domain) data have different distributions. Let <span class="math">\(X\)</span> and <span class="math">\(Y\)</span> denote the features and target, respectively, previous work on domain adaptation considers the covariate shift situation where the distribution of the features <span class="math">\(P(X)\)</span> changes across domains while the conditional distribution <span class="math">\(P(Y|X)\)</span> stays the same. To reduce domain discrepancy, recent methods try to find invariant components <span class="math">\(\mathcal{T}(X)\)</span> that have similar <span class="math">\(P(\mathcal{T}(X))\)</span> by explicitly minimizing a distribution discrepancy measure. However, it is not clear if <span class="math">\(P(Y|\mathcal{T}(X))\)</span> in different domains is also similar when <span class="math">\(P(Y|X)\)</span> changes. Furthermore, transferable components do not necessarily have to be invariant. If the change in some components is identifiable, we can make use of such components for prediction in the target domain. In this paper, we focus on the case where <span class="math">\(P(X|Y)\)</span> and <span class="math">\(P(Y)\)</span> both change in a causal system in which <span class="math">\(Y\)</span> is the cause for <span class="math">\(X\)</span>. Under appropriate assumptions, we aim to extract conditional transferable components whose conditional distribution <span class="math">\(P(\mathcal{T}(X)|Y)\)</span> is invariant after proper location-scale (LS) transformations, and identify how <span class="math">\(P(Y)\)</span> changes between domains simultaneously. We provide theoretical analysis and empirical evaluation on both synthetic and real-world data to show the effectiveness of our method.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="gong16.pdf">Download PDF</a></li>
+			
+			<li><a href="gong16-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

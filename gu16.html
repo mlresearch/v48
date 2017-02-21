@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Continuous Deep Q-Learning with Model-based Acceleration | ICML 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Continuous Deep Q-Learning with Model-based Acceleration">
+
+  <meta name="citation_author" content="Gu, Shixiang">
+
+  <meta name="citation_author" content="Lillicrap, Timothy">
+
+  <meta name="citation_author" content="Sutskever, Ilya">
+
+  <meta name="citation_author" content="Levine, Sergey">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of The 33rd International Conference on Machine Learning">
+<meta name="citation_firstpage" content="2829">
+<meta name="citation_lastpage" content="2838">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v48/gu16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Continuous Deep Q-Learning with Model-based Acceleration</h1>
+
+	<div id="authors">
+	
+		Shixiang Gu,
+	
+		Timothy Lillicrap,
+	
+		Ilya Sutskever,
+	
+		Sergey Levine
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 33rd International Conference on Machine Learning,
+		pp. 2829–2838, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		Model-free reinforcement learning has been successfully applied to a range of challenging problems, and has recently been extended to handle large neural network policies and value functions. However, the sample complexity of model-free algorithms, particularly when using high-dimensional function approximators, tends to limit their applicability to physical systems. In this paper, we explore algorithms and representations to reduce the sample complexity of deep reinforcement learning for continuous control tasks. We propose two complementary techniques for improving the efficiency of such algorithms. First, we derive a continuous variant of the Q-learning algorithm, which we call normalized advantage functions (NAF), as an alternative to the more commonly used policy gradient and actor-critic methods. NAF representation allows us to apply Q-learning with experience replay to continuous tasks, and substantially improves performance on a set of simulated robotic control tasks. To further improve the efficiency of our approach, we explore the use of learned models for accelerating model-free reinforcement learning. We show that iteratively refitted local linear models are especially effective for this, and demonstrate substantially faster learning on domains where such models are applicable.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="gu16.pdf">Download PDF</a></li>
+			
+			<li><a href="gu16-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

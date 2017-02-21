@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Principal Component Projection Without Principal Component Analysis | ICML 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Principal Component Projection Without Principal Component Analysis">
+
+  <meta name="citation_author" content="Frostig, Roy">
+
+  <meta name="citation_author" content="Musco, Cameron">
+
+  <meta name="citation_author" content="Musco, Christopher">
+
+  <meta name="citation_author" content="Sidford, Aaron">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of The 33rd International Conference on Machine Learning">
+<meta name="citation_firstpage" content="2349">
+<meta name="citation_lastpage" content="2357">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v48/frostig16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Principal Component Projection Without Principal Component Analysis</h1>
+
+	<div id="authors">
+	
+		Roy Frostig,
+	
+		Cameron Musco,
+	
+		Christopher Musco,
+	
+		Aaron Sidford
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 33rd International Conference on Machine Learning,
+		pp. 2349–2357, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		We show how to efficiently project a vector onto the top principal components of a matrix, *without explicitly computing these components*. Specifically, we introduce an iterative algorithm that provably computes the projection using few calls to any black-box routine for ridge regression. By avoiding explicit principal component analysis (PCA), our algorithm is the first with no runtime dependence on the number of top principal components. We show that it can be used to give a fast iterative method for the popular principal component regression problem, giving the first major runtime improvement over the naive method of combining PCA with regression. To achieve our results, we first observe that ridge regression can be used to obtain a “smooth projection” onto the top principal components. We then sharpen this approximation to true projection using a low-degree polynomial approximation to the matrix step function. Step function approximation is a topic of long-term interest in scientific computing. We extend prior theory by constructing polynomials with simple iterative structure and rigorously analyzing their behavior under limited precision.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="frostig16.pdf">Download PDF</a></li>
+			
+			<li><a href="frostig16-supp.zip">Supplementary (ZIP)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

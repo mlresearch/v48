@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Persistent RNNs: Stashing Recurrent Weights On-Chip | ICML 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Persistent RNNs: Stashing Recurrent Weights On-Chip">
+
+  <meta name="citation_author" content="Diamos, Greg">
+
+  <meta name="citation_author" content="Sengupta, Shubho">
+
+  <meta name="citation_author" content="Catanzaro, Bryan">
+
+  <meta name="citation_author" content="Chrzanowski, Mike">
+
+  <meta name="citation_author" content="Coates, Adam">
+
+  <meta name="citation_author" content="Elsen, Erich">
+
+  <meta name="citation_author" content="Engel, Jesse">
+
+  <meta name="citation_author" content="Hannun, Awni">
+
+  <meta name="citation_author" content="Satheesh, Sanjeev">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of The 33rd International Conference on Machine Learning">
+<meta name="citation_firstpage" content="2024">
+<meta name="citation_lastpage" content="2033">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v48/diamos16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Persistent RNNs: Stashing Recurrent Weights On-Chip</h1>
+
+	<div id="authors">
+	
+		Greg Diamos,
+	
+		Shubho Sengupta,
+	
+		Bryan Catanzaro,
+	
+		Mike Chrzanowski,
+	
+		Adam Coates,
+	
+		Erich Elsen,
+	
+		Jesse Engel,
+	
+		Awni Hannun,
+	
+		Sanjeev Satheesh
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 33rd International Conference on Machine Learning,
+		pp. 2024–2033, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		This paper introduces a new technique for mapping Deep Recurrent Neural Networks (RNN) efficiently onto GPUs. We show how it is possi- ble to achieve substantially higher computational throughput at low mini-batch sizes than direct implementations of RNNs based on matrix multiplications. The key to our approach is the use of persistent computational kernels that exploit the GPU’s inverted memory hierarchy to reuse network weights over multiple timesteps. Our initial implementation sustains 2.8 TFLOP/s at a mini-batch size of 4 on an NVIDIA TitanX GPU. This provides a 16x reduction in activation memory footprint, enables model training with 12x more parameters on the same hardware, allows us to strongly scale RNN training to 128 GPUs, and allows us to efficiently explore end-to-end speech recognition models with over 100 layers.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="diamos16.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

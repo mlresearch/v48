@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Computationally Efficient Nyström Approximation using Fast Transforms | ICML 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Computationally Efficient Nystr\" {o}m Approximation using Fast Transforms">
+
+  <meta name="citation_author" content="Si, Si">
+
+  <meta name="citation_author" content="Hsieh, Cho-Jui">
+
+  <meta name="citation_author" content="Dhillon, Inderjit">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of The 33rd International Conference on Machine Learning">
+<meta name="citation_firstpage" content="2655">
+<meta name="citation_lastpage" content="2663">
+<meta name="citation_pdf_url" content="http://jmlr.org/proceedings/papers/v48/si16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Computationally Efficient Nyström Approximation using Fast Transforms</h1>
+
+	<div id="authors">
+	
+		Si Si,
+	
+		Cho-Jui Hsieh,
+	
+		Inderjit Dhillon
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of The 33rd International Conference on Machine Learning,
+		pp. 2655–2663, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		Our goal is to improve the <span><em>training</em></span> and <span><em>prediction</em></span> time of Nyström method, which is a widely-used technique for generating low-rank kernel matrix approximations. When applying the Nyström approximation for large-scale applications, both training and prediction time is dominated by computing kernel values between a data point and all landmark points. With <span class="math">\(m\)</span> landmark points, this computation requires <span class="math">\(\Theta(md)\)</span> time (flops), where <span class="math">\(d\)</span> is the input dimension. In this paper, we propose the use of a family of fast transforms to generate structured landmark points for Nyström approximation. By exploiting fast transforms, e.g., Haar transform and Hadamard transform, our modified Nyström method requires only <span class="math">\(\Theta(m)\)</span> or <span class="math">\(\Theta(m\log d)\)</span> time to compute the kernel values between a given data point and <span class="math">\(m\)</span> landmark points. This improvement in time complexity can significantly speed up kernel approximation and benefit prediction speed in kernel machines. For instance, on the webspam data (more than 300,000 data points), our proposed algorithm enables kernel SVM prediction to deliver 98% accuracy and the resulting prediction time is 1000 times faster than LIBSVM and only 10 times slower than linear SVM prediction (which yields only 91% accuracy).
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="si16.pdf">Download PDF</a></li>
+			
+			<li><a href="si16-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>
