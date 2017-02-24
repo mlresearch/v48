@@ -38,6 +38,6 @@ issued:
   - 2016
   - 6
   - 11
-pdf: http://proceedings.mlr.press/v48/choromanski16/choromanski16.pdf
+pdf: http://proceedings.mlr.press/v48/choromanski16.pdf
 # Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
 ---

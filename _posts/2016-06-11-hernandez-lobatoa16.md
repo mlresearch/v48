@@ -43,6 +43,6 @@ issued:
   - 2016
   - 6
   - 11
-pdf: http://proceedings.mlr.press/v48/hernandez-lobatoa16/hernandez-lobatoa16.pdf
+pdf: http://proceedings.mlr.press/v48/hernandez-lobatoa16.pdf
 # Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
 ---
