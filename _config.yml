@@ -1,0 +1,46 @@
+---
+booktitle: Proceedings of The 33rd International Conference on Machine Learning
+publisher: PMLR
+volume: 48
+year: '2016'
+start: 2016-06-20
+end: 2016-06-22
+published: 2016-06-11
+shortname: ICML
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: ICML-2016
+month: 0
+abstract: ''
+sections: 
+editor:
+- given: Maria Florina
+  family: Balcan
+- given: Kilian Q.
+  family: Weinberger
+title: Proceedings of The 33rd International Conference on Machine Learning
+email: ''
+description: Proceedings of The 33rd International Conference on Machine Learning,
+  New York, New York, USA
+url: http://proceedings.mlr.press
+baseurl: "/v48"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v48
+conference:
+  name: International Conference on Machine Learning
+  url: http://icml.cc/2016/
+  location: New York, New York, USA
+  dates:
+  - 2016-06-20
+  - 2016-06-21
+  - 2016-06-22
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from v48.bib
