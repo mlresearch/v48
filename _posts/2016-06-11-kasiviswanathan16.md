@@ -20,6 +20,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: kasiviswanathan16
 month: 0
+tex_title: Efficient Private Empirical Risk Minimization for High-dimensional Learning
 firstpage: 488
 lastpage: 497
 page: 488-497

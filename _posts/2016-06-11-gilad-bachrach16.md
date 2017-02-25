@@ -22,6 +22,8 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: gilad-bachrach16
 month: 0
+tex_title: 'CryptoNets: Applying Neural Networks to Encrypted Data with High Throughput
+  and Accuracy'
 firstpage: 201
 lastpage: 210
 page: 201-210

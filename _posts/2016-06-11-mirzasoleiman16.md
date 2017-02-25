@@ -22,6 +22,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: mirzasoleiman16
 month: 0
+tex_title: 'Fast Constrained Submodular Maximization: Personalized Data Summarization'
 firstpage: 1358
 lastpage: 1367
 page: 1358-1367

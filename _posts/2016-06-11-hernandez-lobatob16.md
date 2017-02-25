@@ -15,6 +15,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: hernandez-lobatob16
 month: 0
+tex_title: Black-Box Alpha Divergence Minimization
 firstpage: 1511
 lastpage: 1520
 page: 1511-1520

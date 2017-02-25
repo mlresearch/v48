@@ -16,6 +16,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: papakonstantinou16
 month: 0
+tex_title: On the Power and Limits of Distance-Based Learning
 firstpage: 2263
 lastpage: 2271
 page: 2263-2271

@@ -14,6 +14,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: ravanbakhsha16
 month: 0
+tex_title: Boolean Matrix Factorization and Noisy Completion via Message Passing
 firstpage: 945
 lastpage: 954
 page: 945-954

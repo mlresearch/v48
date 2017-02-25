@@ -1,5 +1,5 @@
 ---
-title: Meta--Gradient Boosted Decision Tree Model for Weight and Target Learning
+title: Meta–Gradient Boosted Decision Tree Model for Weight and Target Learning
 abstract: Labeled training data is an essential part of any supervised machine learning
   framework. In practice, there is a trade-off between the quality of a label and
   its cost. In this paper, we consider a problem of learning to rank on a large-scale
@@ -16,6 +16,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: ustinovskiy16
 month: 0
+tex_title: Meta--Gradient Boosted Decision Tree Model for Weight and Target Learning
 firstpage: 2692
 lastpage: 2701
 page: 2692-2701

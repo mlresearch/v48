@@ -14,6 +14,8 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: pimentel-alarcon16
 month: 0
+tex_title: The Information-Theoretic Requirements of Subspace Clustering with Missing
+  Data
 firstpage: 802
 lastpage: 810
 page: 802-810

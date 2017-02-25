@@ -15,6 +15,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: vinogradska16
 month: 0
+tex_title: Stability of Controllers for Gaussian Process Forward Models
 firstpage: 545
 lastpage: 554
 page: 545-554

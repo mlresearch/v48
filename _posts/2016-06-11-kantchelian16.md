@@ -16,6 +16,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: kantchelian16
 month: 0
+tex_title: Evasion and Hardening of Tree Ensemble Classifiers
 firstpage: 2387
 lastpage: 2396
 page: 2387-2396

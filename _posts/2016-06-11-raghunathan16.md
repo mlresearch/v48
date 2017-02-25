@@ -14,6 +14,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: raghunathan16
 month: 0
+tex_title: Estimation from Indirect Supervision with Linear Moments
 firstpage: 2568
 lastpage: 2577
 page: 2568-2577

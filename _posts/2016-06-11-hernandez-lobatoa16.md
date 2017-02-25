@@ -19,6 +19,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: hernandez-lobatoa16
 month: 0
+tex_title: Predictive Entropy Search for Multi-objective Bayesian Optimization
 firstpage: 1492
 lastpage: 1501
 page: 1492-1501

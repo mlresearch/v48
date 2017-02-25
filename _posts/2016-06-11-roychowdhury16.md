@@ -1,7 +1,6 @@
 ---
 supplementary: Supplementary:roychowdhury16-supp.pdf
-title: Robust Monte Carlo Sampling using Riemannian Nos\'{e}-Poincar\'{e} Hamiltonian
-  Dynamics
+title: Robust Monte Carlo Sampling using Riemannian Nosé-Poincaré Hamiltonian Dynamics
 abstract: We present a Monte Carlo sampler using a modified Nosé-Poincaré Hamiltonian
   along with Riemannian preconditioning. Hamiltonian Monte Carlo samplers allow better
   exploration of the state space as opposed to random walk-based methods, but, from
@@ -21,6 +20,8 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: roychowdhury16
 month: 0
+tex_title: Robust Monte Carlo Sampling using Riemannian Nos\'{e}-Poincar\'{e} Hamiltonian
+  Dynamics
 firstpage: 2673
 lastpage: 2681
 page: 2673-2681

@@ -17,7 +17,7 @@ layout: null
 {% for post in sorted %}
 {% capture id %}{{ post.id | remove_first: '/' }}{% endcapture %}
 @InProceedings{{o}}{{ id }},
-  title =     {{o}}{{ post.title }}{{c}},
+  title =     {{o}}{{ post.tex_title }}{{c}},
   author =    {{o}}{% assign lastone = post.author.last %}{% for person in post.author %}{{ person.given }} {{ person.family }}{% unless person == lastone %} and {%endunless %}{% endfor %}{{c}},
   editor =    {{o}}{% assign lastone = site.editor.last %}{% for person in site.editor %}{{ person.given }} {{ person.family }}{% unless person == lastone %} and {%endunless %}{% endfor %}{{c}},
   publisher = {PMLR},

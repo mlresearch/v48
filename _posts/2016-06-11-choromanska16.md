@@ -19,6 +19,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: choromanska16
 month: 0
+tex_title: Binary embeddings with structured hashed projections
 firstpage: 344
 lastpage: 353
 page: 344-353

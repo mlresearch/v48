@@ -15,6 +15,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: caragiannis16
 month: 0
+tex_title: Truthful Univariate Estimators
 firstpage: 127
 lastpage: 135
 page: 127-135

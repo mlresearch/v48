@@ -17,6 +17,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: shalev-shwartzb16
 month: 0
+tex_title: 'Minimizing the Maximal Loss: How and Why'
 firstpage: 793
 lastpage: 801
 page: 793-801

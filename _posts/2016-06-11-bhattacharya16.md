@@ -25,6 +25,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: bhattacharya16
 month: 0
+tex_title: Non-negative Matrix Factorization under Heavy Noise
 firstpage: 1426
 lastpage: 1434
 page: 1426-1434

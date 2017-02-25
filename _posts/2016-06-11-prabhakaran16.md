@@ -21,6 +21,8 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: prabhakaran16
 month: 0
+tex_title: Dirichlet Process Mixture Model for Correcting Technical Variation in Single-Cell
+  Gene Expression Data
 firstpage: 1070
 lastpage: 1079
 page: 1070-1079

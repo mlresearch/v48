@@ -17,6 +17,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: podosinnikova16
 month: 0
+tex_title: 'Beyond CCA: Moment Matching for Multi-View Models'
 firstpage: 458
 lastpage: 467
 page: 458-467

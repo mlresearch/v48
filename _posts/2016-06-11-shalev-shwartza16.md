@@ -9,6 +9,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: shalev-shwartza16
 month: 0
+tex_title: SDCA without Duality, Regularization, and Individual Convexity
 firstpage: 747
 lastpage: 754
 page: 747-754

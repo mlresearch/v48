@@ -16,6 +16,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: chwialkowski16
 month: 0
+tex_title: A Kernel Test of Goodness of Fit
 firstpage: 2606
 lastpage: 2615
 page: 2606-2615

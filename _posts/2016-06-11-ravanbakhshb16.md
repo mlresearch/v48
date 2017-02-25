@@ -18,6 +18,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: ravanbakhshb16
 month: 0
+tex_title: Estimating Cosmological Parameters from the Dark Matter Distribution
 firstpage: 2407
 lastpage: 2416
 page: 2407-2416
