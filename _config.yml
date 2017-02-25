@@ -18,10 +18,20 @@ editor:
   family: Balcan
 - given: Kilian Q.
   family: Weinberger
-title: Proceedings of The 33rd International Conference on Machine Learning
-email: ''
-description: Proceedings of The 33rd International Conference on Machine Learning,
-  New York, New York, USA
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The 33rd International Conference on Machine Learning
+    Held in New York, New York, USA on 20-22 June 2016
+
+  Published as Volume 48 by the Proceedings of Machine Learning Research on 11 June 2016.
+
+  Volume Edited by:
+    Maria Florina Balcan
+    Kilian Q. Weinberger
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
 url: http://proceedings.mlr.press
 baseurl: "/v48"
 twitter_username: mlresearch
@@ -31,6 +41,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v48
+email: ''
 conference:
   name: International Conference on Machine Learning
   url: http://icml.cc/2016/
