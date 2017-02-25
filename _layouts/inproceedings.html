@@ -13,10 +13,16 @@ layout: default
 
 </head>
 
-<div class="page-content" id="content">
-  {% include paper_abstract.html %}
+{% include paper_abstract.html %}
 
-  {% if site.comments %}
-  {% include disqus_comment_code.html %}
-  {% endif %}
+{% if site.bibtex_copy %}
+{% include bibtex_copy_section.html %}
+{% endif %}
+{% if site.comments %}
+{% include disqus_comment_code.html %}
+{% endif %}
 </div>
+
+<!-- copy widget -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../js/copy_input.js"></script>
