@@ -27,10 +27,12 @@ layout: default
     {% endfor %}
   </ul>
   {% endif %}
+  <p>
   <label for="search-authors">Filter Authors:</label>
   <input type="search" name="filter-authors" id="search-authors" value />
   <label for="search-titles">Filter Titles:</label>
   <input type="search" name="filter-titles" id="search-titles" value />
+  </p>
 </div>
 {% if site.sections %}
 {% for section in site.sections %}
