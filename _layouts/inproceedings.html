@@ -13,12 +13,10 @@ layout: default
 
 {% include paper_abstract.html %}
 
-{% if site.bibtex_copy %}
 {% include bibtex_copy_section.html %}
-{% endif %}
-{% if site.comments %}
+{% include endnote_copy_section.html %}
+{% include apa_copy_section.html %}
 {% include disqus_comment_code.html %}
-{% endif %}
 </div>
 
 <!-- copy widget -->

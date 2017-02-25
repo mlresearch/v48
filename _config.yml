@@ -44,6 +44,8 @@ github:
   edit: true
   repository: v48
 bibtex_copy: true
+endnote_copy: true
+apa_copy: true
 email: ''
 conference:
   name: International Conference on Machine Learning
