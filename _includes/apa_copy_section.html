@@ -2,7 +2,7 @@
 {% capture id %}{{ page.id | remove_first: '/' }}{% endcapture %}
 <table>
   <tr>
-    <td><div class="codebox" id="apa" padding=1ex>{% include apa_entry %}</div></td>
+    <td><div class="codebox" id="apa"><div style="padding:2ex">{% include apa_entry %}</div></div></td>
     <td><button id="button1" onclick="CopyToClipboard('apa')">Copy APA</button></td>
   </tr>
 </table>
