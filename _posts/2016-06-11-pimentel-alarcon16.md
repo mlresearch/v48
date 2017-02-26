@@ -19,7 +19,8 @@ tex_title: The Information-Theoretic Requirements of Subspace Clustering with Mi
 firstpage: 802
 lastpage: 810
 page: 802-810
-sections: 
+order: 802
+cycles: false
 author:
 - given: Daniel
   family: Pimentel-Alarcon

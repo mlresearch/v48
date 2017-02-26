@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:kantchelian16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/kantchelian16-supp.pdf
 title: Evasion and Hardening of Tree Ensemble Classifiers
 abstract: Classifier evasion consists in finding for a given instance x the “nearest”
   instance x’ such that the classifier predictions of x and x’ are different. We present
@@ -20,7 +20,8 @@ tex_title: Evasion and Hardening of Tree Ensemble Classifiers
 firstpage: 2387
 lastpage: 2396
 page: 2387-2396
-sections: 
+order: 2387
+cycles: false
 author:
 - given: Alex
   family: Kantchelian

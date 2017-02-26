@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:podosinnikova16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/podosinnikova16-supp.pdf
 title: 'Beyond CCA: Moment Matching for Multi-View Models'
 abstract: We introduce three novel semi-parametric extensions of probabilistic canonical
   correlation analysis with identifiability guarantees. We consider moment matching
@@ -21,7 +21,8 @@ tex_title: 'Beyond CCA: Moment Matching for Multi-View Models'
 firstpage: 458
 lastpage: 467
 page: 458-467
-sections: 
+order: 458
+cycles: false
 author:
 - given: Anastasia
   family: Podosinnikova

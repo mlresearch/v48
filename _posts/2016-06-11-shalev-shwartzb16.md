@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:shalev-shwartzb16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/shalev-shwartzb16-supp.pdf
 title: 'Minimizing the Maximal Loss: How and Why'
 abstract: A commonly used learning rule is to approximately minimize the \emphaverage
   loss over the training set. Other learning algorithms, such as AdaBoost and hard-SVM,
@@ -21,7 +21,8 @@ tex_title: 'Minimizing the Maximal Loss: How and Why'
 firstpage: 793
 lastpage: 801
 page: 793-801
-sections: 
+order: 793
+cycles: false
 author:
 - given: Shai
   family: Shalev-Shwartz

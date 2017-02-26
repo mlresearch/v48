@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:kasiviswanathan16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/kasiviswanathan16-supp.pdf
 title: Efficient Private Empirical Risk Minimization for High-dimensional Learning
 abstract: 'Dimensionality reduction is a popular approach for dealing with high dimensional
   data that leads to substantial computational savings. Random projections are a simple
@@ -24,7 +24,8 @@ tex_title: Efficient Private Empirical Risk Minimization for High-dimensional Le
 firstpage: 488
 lastpage: 497
 page: 488-497
-sections: 
+order: 488
+cycles: false
 author:
 - given: Shiva Prasad
   family: Kasiviswanathan

@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:mirzasoleiman16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/mirzasoleiman16-supp.pdf
 title: 'Fast Constrained Submodular Maximization: Personalized Data Summarization'
 abstract: 'Can we summarize multi-category data based on user preferences in a scalable
   manner? Many utility functions used for data summarization satisfy submodularity,
@@ -26,7 +26,8 @@ tex_title: 'Fast Constrained Submodular Maximization: Personalized Data Summariz
 firstpage: 1358
 lastpage: 1367
 page: 1358-1367
-sections: 
+order: 1358
+cycles: false
 author:
 - given: Baharan
   family: Mirzasoleiman

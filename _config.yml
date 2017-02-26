@@ -14,7 +14,7 @@ month: 0
 abstract: ''
 tex_title: 
 title: Proceedings of Machine Learning Research
-sections: 
+cycles: false
 editor:
 - given: Maria Florina
   family: Balcan
@@ -43,9 +43,12 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v48
-bibtex_copy: true
-endnote_copy: true
-apa_copy: true
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
 email: ''
 conference:
   name: International Conference on Machine Learning

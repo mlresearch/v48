@@ -4,7 +4,8 @@
 <meta name="citation_publication_date" content="{{ site.published | date: "%Y/%m/%d" }}">
 <meta name="citation_conference_title" content="{{ site.conference.name }}">
 <meta name="citation_issn" content="1938-7228">
-<meta name="citation_volume" content="{{ site.volume }}">
+<meta name="citation_volume" content="{{ site.volume }}">{% if page.number %}
+<meta name="citation_issue" content="{{ page.number }}">{%endif%}
 <meta name="citation_firstpage" content="{{ page.firstpage }}">
 <meta name="citation_lastpage" content="{{ page.lastpage }}">
 

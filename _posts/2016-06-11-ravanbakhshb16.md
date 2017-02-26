@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:ravanbakhshb16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/ravanbakhshb16-supp.pdf
 title: Estimating Cosmological Parameters from the Dark Matter Distribution
 abstract: A grand challenge of the 21st century cosmology is to accurately estimate
   the cosmological parameters of our Universe. A major approach in estimating the
@@ -22,7 +22,8 @@ tex_title: Estimating Cosmological Parameters from the Dark Matter Distribution
 firstpage: 2407
 lastpage: 2416
 page: 2407-2416
-sections: 
+order: 2407
+cycles: false
 author:
 - given: Siamak
   family: Ravanbakhsh

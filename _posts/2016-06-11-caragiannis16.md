@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:caragiannis16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/caragiannis16-supp.pdf
 title: Truthful Univariate Estimators
 abstract: We revisit the classic problem of estimating the population mean of an unknown
   single-dimensional distribution from samples, taking a game-theoretic viewpoint.
@@ -19,7 +19,8 @@ tex_title: Truthful Univariate Estimators
 firstpage: 127
 lastpage: 135
 page: 127-135
-sections: 
+order: 127
+cycles: false
 author:
 - given: Ioannis
   family: Caragiannis

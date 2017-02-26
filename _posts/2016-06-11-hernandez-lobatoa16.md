@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:hernandez-lobatoa16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/hernandez-lobatoa16-supp.pdf
 title: Predictive Entropy Search for Multi-objective Bayesian Optimization
 abstract: We present \small PESMO, a Bayesian method for identifying the Pareto set
   of multi-objective optimization problems, when the functions are expensive to evaluate.
@@ -23,7 +23,8 @@ tex_title: Predictive Entropy Search for Multi-objective Bayesian Optimization
 firstpage: 1492
 lastpage: 1501
 page: 1492-1501
-sections: 
+order: 1492
+cycles: false
 author:
 - given: Daniel
   family: Hernandez-Lobato

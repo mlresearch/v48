@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:hernandez-lobatob16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/hernandez-lobatob16-supp.pdf
 title: Black-Box Alpha Divergence Minimization
 abstract: Black-box alpha (BB-α) is a new approximate inference method based on the
   minimization of α-divergences. BB-αscales to large datasets because it can be implemented
@@ -19,7 +19,8 @@ tex_title: Black-Box Alpha Divergence Minimization
 firstpage: 1511
 lastpage: 1520
 page: 1511-1520
-sections: 
+order: 1511
+cycles: false
 author:
 - given: Jose
   family: Hernandez-Lobato

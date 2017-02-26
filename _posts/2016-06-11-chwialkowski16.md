@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:chwialkowski16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/chwialkowski16-supp.pdf
 title: A Kernel Test of Goodness of Fit
 abstract: 'We propose a nonparametric statistical test for goodness-of-fit: given
   a set of samples, the test determines how likely it is that these were generated
@@ -20,7 +20,8 @@ tex_title: A Kernel Test of Goodness of Fit
 firstpage: 2606
 lastpage: 2615
 page: 2606-2615
-sections: 
+order: 2606
+cycles: false
 author:
 - given: Kacper
   family: Chwialkowski

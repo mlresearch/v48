@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:raghunathan16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/raghunathan16-supp.pdf
 title: Estimation from Indirect Supervision with Linear Moments
 abstract: 'In structured prediction problems where we have indirect supervision of
   the output, maximum marginal likelihood faces two computational obstacles: non-convexity
@@ -18,7 +18,8 @@ tex_title: Estimation from Indirect Supervision with Linear Moments
 firstpage: 2568
 lastpage: 2577
 page: 2568-2577
-sections: 
+order: 2568
+cycles: false
 author:
 - given: Aditi
   family: Raghunathan

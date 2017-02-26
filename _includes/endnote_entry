@@ -10,6 +10,7 @@
 %P {{ page.firstpage }}--{{ page.lastpage }}
 %R {{ page.doi }}
 %U {{ site.url }}
-%V {{ site.volume }}
+%V {{ site.volume }}{% if page.number %}
+%N {{ page.number }}{% endif %}
 %W PMLR
 %X {{ page.abstract }}

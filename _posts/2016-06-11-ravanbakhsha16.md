@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:ravanbakhsha16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/ravanbakhsha16-supp.pdf
 title: Boolean Matrix Factorization and Noisy Completion via Message Passing
 abstract: Boolean matrix factorization and Boolean matrix completion from noisy observations
   are desirable unsupervised data-analysis methods due to their interpretability,
@@ -18,7 +18,8 @@ tex_title: Boolean Matrix Factorization and Noisy Completion via Message Passing
 firstpage: 945
 lastpage: 954
 page: 945-954
-sections: 
+order: 945
+cycles: false
 author:
 - given: Siamak
   family: Ravanbakhsh

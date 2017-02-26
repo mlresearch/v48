@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:prabhakaran16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/prabhakaran16-supp.pdf
 title: Dirichlet Process Mixture Model for Correcting Technical Variation in Single-Cell
   Gene Expression Data
 abstract: We introduce an iterative normalization and clustering method for single-cell
@@ -26,7 +26,8 @@ tex_title: Dirichlet Process Mixture Model for Correcting Technical Variation in
 firstpage: 1070
 lastpage: 1079
 page: 1070-1079
-sections: 
+order: 1070
+cycles: false
 author:
 - given: Sandhya
   family: Prabhakaran

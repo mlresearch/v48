@@ -27,7 +27,8 @@ tex_title: 'CryptoNets: Applying Neural Networks to Encrypted Data with High Thr
 firstpage: 201
 lastpage: 210
 page: 201-210
-sections: 
+order: 201
+cycles: false
 author:
 - given: Ran
   family: Gilad-Bachrach

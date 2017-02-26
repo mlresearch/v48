@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:choromanski16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/choromanski16-supp.pdf
 title: Recycling Randomness with Structure for Sublinear time Kernel Expansions
 abstract: We propose a scheme for recycling Gaussian random vectors into structured
   matrices to ap- proximate various kernel functions in sublin- ear time via random
@@ -22,7 +22,8 @@ tex_title: Recycling Randomness with Structure for Sublinear time Kernel Expansi
 firstpage: 2502
 lastpage: 2510
 page: 2502-2510
-sections: 
+order: 2502
+cycles: false
 author:
 - given: Krzysztof
   family: Choromanski

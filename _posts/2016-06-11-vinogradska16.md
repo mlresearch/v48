@@ -19,7 +19,8 @@ tex_title: Stability of Controllers for Gaussian Process Forward Models
 firstpage: 545
 lastpage: 554
 page: 545-554
-sections: 
+order: 545
+cycles: false
 author:
 - given: Julia
   family: Vinogradska

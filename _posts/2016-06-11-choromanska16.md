@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:choromanska16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/choromanska16-supp.pdf
 title: Binary embeddings with structured hashed projections
 abstract: We consider the hashing mechanism for constructing binary embeddings, that
   involves pseudo-random projections followed by nonlinear (sign function) mappings.
@@ -23,7 +23,8 @@ tex_title: Binary embeddings with structured hashed projections
 firstpage: 344
 lastpage: 353
 page: 344-353
-sections: 
+order: 344
+cycles: false
 author:
 - given: Anna
   family: Choromanska

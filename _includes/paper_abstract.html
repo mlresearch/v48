@@ -8,7 +8,7 @@
     {% endfor %};
   </div>
   <div id="info" class="authors">
-    {{ page.container-title }}, PMLR {{ page.volume }}:{{ page.page }}, {{ page.issued.date-parts.first }}.
+    {{ page.container-title }}, PMLR {{ page.volume }}{% if page.number %}({{page.number}}){%endif%}:{{ page.page }}, {{ page.issued.date-parts.first }}.
   </div> <!-- info -->
   
   <h4>Abstract</h4>
@@ -18,7 +18,8 @@
   <h4>Related Material</h4>
   <div id="extras">
     <ul>
-      <li><a href="{{ page.pdf }}">Download PDF</a></li>
+      <li><a href="{{ page.pdf }}">Download PDF</a></li>{% if page.supplementary %}
+      <li><a href="{{ page.supplementary }}">Supplementary Material</a></li>{% endif %}
       {% for extra in page.extras %}
       <li><a href="{{ extra.link }}">{{ extra.label }}</a></li>
       {% endfor %}

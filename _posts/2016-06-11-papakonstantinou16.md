@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:papakonstantinou16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/papakonstantinou16-supp.pdf
 title: On the Power and Limits of Distance-Based Learning
 abstract: We initiate the study of low-distortion finite metric embeddings in multi-class
   (and multi-label) classification where (i) both the space of input instances and
@@ -20,7 +20,8 @@ tex_title: On the Power and Limits of Distance-Based Learning
 firstpage: 2263
 lastpage: 2271
 page: 2263-2271
-sections: 
+order: 2263
+cycles: false
 author:
 - given: Periklis
   family: Papakonstantinou

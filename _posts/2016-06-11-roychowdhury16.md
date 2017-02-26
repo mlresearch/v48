@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:roychowdhury16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/roychowdhury16-supp.pdf
 title: Robust Monte Carlo Sampling using Riemannian Nosé-Poincaré Hamiltonian Dynamics
 abstract: We present a Monte Carlo sampler using a modified Nosé-Poincaré Hamiltonian
   along with Riemannian preconditioning. Hamiltonian Monte Carlo samplers allow better
@@ -25,7 +25,8 @@ tex_title: Robust Monte Carlo Sampling using Riemannian Nos\'{e}-Poincar\'{e} Ha
 firstpage: 2673
 lastpage: 2681
 page: 2673-2681
-sections: 
+order: 2673
+cycles: false
 author:
 - given: Anirban
   family: Roychowdhury

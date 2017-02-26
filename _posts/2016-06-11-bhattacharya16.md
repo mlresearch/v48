@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:bhattacharya16-supp.pdf
+supplementary: http://proceedings.mlr.press/v48/bhattacharya16-supp.pdf
 title: Non-negative Matrix Factorization under Heavy Noise
 abstract: 'The Noisy Non-negative Matrix factorization (NMF) is: given a data matrix
   A (d x n), find non-negative matrices B;C (d x k, k x n respy.) so that A = BC +N,
@@ -29,7 +29,8 @@ tex_title: Non-negative Matrix Factorization under Heavy Noise
 firstpage: 1426
 lastpage: 1434
 page: 1426-1434
-sections: 
+order: 1426
+cycles: false
 author:
 - given: Chiranjib
   family: Bhattacharya
