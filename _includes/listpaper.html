@@ -7,7 +7,7 @@
       {% include listperson.html %}
       {% endfor %}
     </span>;
-    <span class="info">PMLR {{ site.volume}}{% if post.number %}({{post.number}}){%endif%}:{% if post.firstpage %}{{ post.firstpage }}{% endif %}{% if post.lastpage %}-{{ post.lastpage }}{% endif %}</span>
+    <span class="info">{{ site.volume}}{% if post.number %}({{post.number}}){%endif%}:{% if post.firstpage %}{{ post.firstpage }}{% endif %}{% if post.lastpage %}-{{ post.lastpage }}{% endif %}</span>
   </p>
   <p class="links">
     [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">abs</a>]
