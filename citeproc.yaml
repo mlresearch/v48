@@ -26,4 +26,4 @@ layout: null
   issued:
     date-parts: {% for date-part in post.issued.date-parts %}
       - {{ date-part }}{% endfor %}{% if post.abstract %}
-  abstract: "{{ post.abstract }}"{% endif %}{% endfor %}
+  abstract: '{{ post.abstract }}'{% endif %}{% endfor %}
