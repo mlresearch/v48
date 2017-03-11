@@ -1,5 +1,4 @@
 {% if site.display.copy_button.apa %}
-{% capture id %}{{ page.id | remove_first: '/' }}{% endcapture %}
 {% capture filetext %}{% include apa_entry %}{% endcapture %}
 {% assign filetype = 'txt' %}
 {% assign button_name = 'APA' %}

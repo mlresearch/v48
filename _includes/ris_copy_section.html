@@ -1,5 +1,4 @@
 {% if site.display.copy_button.ris %}
-{% capture id %}{{ page.id | remove_first: '/' }}{% endcapture %}
 {% capture filetext %}{% include ris_entry %}{% endcapture %}
 {% assign filetype = 'ris' %}
 {% assign button_name = 'RIS' %}

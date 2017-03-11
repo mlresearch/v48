@@ -1,7 +1,6 @@
 {% if site.display.copy_button.bibtex %}
 {% assign o = '{' %}
 {% assign c = '}' %}
-{% capture id %}{{ page.id | remove_first: '/' }}{% endcapture %}
 {% capture filetext %}{% include bibtex_entry %}{% endcapture %}
 {% assign filetype = 'bib' %}
 {% assign button_name = 'BibTeX' %}
