@@ -1,10 +1,8 @@
 {% if site.display.copy_button.apa %}
 {% capture id %}{{ page.id | remove_first: '/' }}{% endcapture %}
-<table>
-  <tr>
-    <td><div class="codebox" id="apa"><div style="padding:2ex">{% include apa_entry %}</div></div></td>
-    <td><button id="button1" onclick="CopyToClipboard('apa')">Copy APA</button></td>
-  </tr>
-</table>
+{% capture filetext %}{% include apa_entry %}{% endcapture %}
+{% assign filetype = 'txt' %}
+{% assign button_name = 'APA' %}
+{% include copy_buttons.html %}
 {% endif %}    
 

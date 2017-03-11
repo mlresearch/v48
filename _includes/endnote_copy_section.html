@@ -1,12 +1,9 @@
 {% if site.display.copy_button.endnote %}
 {% capture id %}{{ page.id | remove_first: '/' }}{% endcapture %}
-<table>
-  <tr>
-    <td><div class="codebox" >
-	<pre><code id="endnote">{% include endnote_entry %}</code></pre></div></td>
-    <td><button id="button1" onclick="CopyToClipboard('endnote')">Copy Endnote</button></td>
-  </tr>
-</table>
+{% capture filetext %}{% include endnote_entry %}{% endcapture %}
+{% assign filetype = 'enw' %}
+{% assign button_name = 'Endnote' %}
+{% include copy_buttons.html %}
 {% endif %}    
     
 
