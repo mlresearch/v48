@@ -18,10 +18,10 @@
   <h4>Related Material</h4>
   <div id="extras">
     <ul>
-      <li><a href="{{ page.pdf }}" target="_blank" onclick="ga('send', 'event', ' PDF Downloads', 'Click', 'Paper', this.href);">Download PDF</a></li>{% if page.supplementary %}
-      <li><a href="{{ page.supplementary }}" target="_blank" onclick="ga('send', 'event', ' PDF Downloads', 'Click', 'Supplementary Material', this.href);">Supplementary Material</a></li>{% endif %}
+      <li><a href="{{ page.pdf }}" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Click', 'Paper', 10);">Download PDF</a></li>{% if page.supplementary %}
+      <li><a href="{{ page.supplementary }}" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Click', 'Supplementary Material', 11);">Supplementary Material</a></li>{% endif %}
       {% for extra in page.extras %}
-      <li><a href="{{ extra.link }}" target="_blank" onclick="ga('send', 'event', ' PDF Downloads', 'Click', '{{ extra.label }}', this.href);">{{ extra.label }}</a></li>
+      <li><a href="{{ extra.link }}" target="_blank" onclick="ga('send', 'event', 'Extra Downloads', 'Click', '{{ extra.label }}', 12);">{{ extra.label }}</a></li>
       {% endfor %}
     </ul>
   </div>

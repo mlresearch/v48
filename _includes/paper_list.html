@@ -8,7 +8,7 @@
   </p>
   <p class="links">
     [<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">abs</a>]
-    [<a href="{{ post.pdf }}" target="_blank" onclick="ga('send', 'event', ' PDF Downloads', 'Click', 'Paper', this.href);">Download PDF</a>]{% if post.supplementary %}[<a href="{{ post.supplementary }}" target="_blank" onclick="ga('send', 'event', ' PDF Downloads', 'Click', 'Supplementary Material', this.href);">Supplementary Material</a>]{% endif %}{% for extra in post.extras %}[<a href="{{ extra.link }}" target="_blank" onclick="ga('send', 'event', ' PDF Downloads', 'Click', '{{ extra.label }}', this.href);">{{ extra.label }}</a>]{% endfor %}
+    [<a href="{{ post.pdf }}" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Click', 'Paper', 10);">Download PDF</a>]{% if post.supplementary %}[<a href="{{ post.supplementary }}" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Click', 'Supplementary Material', 11);">Supplementary Material</a>]{% endif %}{% for extra in post.extras %}[<a href="{{ extra.link }}" target="_blank" onclick="ga('send', 'event', 'Extra Downloads', 'Click', '{{ extra.label }}', 12);">{{ extra.label }}</a>]{% endfor %}
   </p>
 </div>
 
