@@ -18,10 +18,10 @@
   <h4>Related Material</h4>
   <div id="extras">
     <ul>
-      <li><a href="{{ page.pdf }}">Download PDF</a></li>{% if page.supplementary %}
-      <li><a href="{{ page.supplementary }}">Supplementary Material</a></li>{% endif %}
+      <li><a href="{{ page.pdf }} target="_blank" onclick="_gaq.push(['_trackEvent','Download','PDF',this.href]);">Download PDF</a></li>{% if page.supplementary %}
+      <li><a href="{{ page.supplementary }} target="_blank" onclick="_gaq.push(['_trackEvent','Download','Supplementary',this.href]);">Supplementary Material</a></li>{% endif %}
       {% for extra in page.extras %}
-      <li><a href="{{ extra.link }}">{{ extra.label }}</a></li>
+      <li><a href="{{ extra.link }} target="_blank" onclick="_gaq.push(['_trackEvent','Download','{{ extra.label }}',this.href]);">{{ extra.label }}</a></li>
       {% endfor %}
     </ul>
   </div>
